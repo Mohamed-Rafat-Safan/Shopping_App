@@ -87,7 +87,7 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
     public String createTables(String tableName){
         return "CREATE TABLE "+tableName+" ("+TB_CLM_ID+" INTEGER PRIMARY KEY AUTOINCREMENT , "+TB_CLM_IMAGE+" INTEGER , "+
                 TB_CLM_NAME+" TEXT , "+TB_CLM_PRICE+" REAL , "+TB_CLM_BRAND+" TEXT , "+TB_CLM_PIECES+" INTEGER , "+
-                TB_CLM_DESCRIPTION+" TEXT , "+TB_CLM_DISCOUNT+" REAL) ; ";
+                TB_CLM_DESCRIPTION+" TEXT , "+TB_CLM_DISCOUNT+" REAL , "+TB_CLM_RATING+" REAL ) ; ";
     }
 
 
@@ -102,6 +102,7 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
         values.put(TB_CLM_PIECES,p.getPieces());
         values.put(TB_CLM_DESCRIPTION,p.getDescription());
         values.put(TB_CLM_DISCOUNT,p.getDiscount());
+        values.put(TB_CLM_RATING,p.getRating());
 
         long res = db.insert(tableName,null,values);
         db.close();
@@ -143,8 +144,9 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
                 @SuppressLint("Range") int pieces = cursor.getInt(cursor.getColumnIndex(TB_CLM_PIECES));
                 @SuppressLint("Range") String description = cursor.getString(cursor.getColumnIndex(TB_CLM_DESCRIPTION));
                 @SuppressLint("Range") double discount = cursor.getDouble(cursor.getColumnIndex(TB_CLM_DISCOUNT));
+                @SuppressLint("Range") float rating = cursor.getFloat(cursor.getColumnIndex(TB_CLM_RATING));
 
-                Products p = new Products(image,name,price,brand,pieces,description,discount);
+                Products p = new Products(image,name,price,brand,pieces,description,discount,rating);
                 products.add(p);
             }while (cursor.moveToNext());
                 cursor.close();
@@ -166,8 +168,9 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
             @SuppressLint("Range") int pieces = cursor.getInt(cursor.getColumnIndex(TB_CLM_PIECES));
             @SuppressLint("Range") String description = cursor.getString(cursor.getColumnIndex(TB_CLM_DESCRIPTION));
             @SuppressLint("Range") double discount = cursor.getDouble(cursor.getColumnIndex(TB_CLM_DISCOUNT));
+            @SuppressLint("Range") float rating = cursor.getFloat(cursor.getColumnIndex(TB_CLM_RATING));
 
-            Products p = new Products(id,image,name,price,brand,pieces,description,discount);
+            Products p = new Products(image,name,price,brand,pieces,description,discount,rating);
             cursor.close();
             db.close();
             return p;

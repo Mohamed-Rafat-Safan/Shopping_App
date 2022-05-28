@@ -43,7 +43,7 @@ public class HomeAdabter extends RecyclerView.Adapter<HomeAdabter.ProductInHomeV
         }
         holder.name.setText(p.getName());
         holder.price.setText(p.getPrice()+"$");
-        holder.rating.setRating(p.getRating());
+        holder.rating.setRating((float) 3.5);
         if(p.getDiscount()>0){
             holder.priceAfter.setText(p.getPrice()-(p.getPrice()*(p.getDiscount()/100))+"$");
             holder.price.setPaintFlags(holder.price.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);//وضع خط علي السعر القديم
