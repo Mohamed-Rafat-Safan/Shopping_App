@@ -35,7 +35,7 @@
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_mobile.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_products_card.xml" value="0.25416666666666665" />
-        <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_purchases.xml" value="0.25226449275362317" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/layout/activity_setting.xml" value="0.25416666666666665" />
@@ -54,6 +54,12 @@
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/xml/preferences.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/xml/root_preferences.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/Projects/ShoppingApp/app/src/main/res/xml/setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hP/Documents/AndroidStudioProjects/ShoppingApplication/app/src/main/res/layout/activity_display_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hP/Documents/AndroidStudioProjects/ShoppingApplication/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hP/Documents/AndroidStudioProjects/ShoppingApplication/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hP/Documents/AndroidStudioProjects/ShoppingApplication/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hP/Documents/AndroidStudioProjects/ShoppingApplication/app/src/main/res/layout/activity_products_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hP/Documents/AndroidStudioProjects/ShoppingApplication/app/src/main/res/layout/custome_card_products.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

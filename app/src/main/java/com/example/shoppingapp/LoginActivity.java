@@ -43,8 +43,8 @@ public class LoginActivity extends AppCompatActivity {
         user_password = findViewById(R.id.et_password_login);
         remember_me = findViewById(R.id.chb_remember_login);
         error = findViewById(R.id.tv_login_error);
-        shp = getSharedPreferences("myPreferences", MODE_PRIVATE);
-        shp_id = getSharedPreferences("Preferences_id", MODE_PRIVATE);
+        shp = getSharedPreferences("myPreferences", MODE_PRIVATE); // login
+        shp_id = getSharedPreferences("Preferences_id", MODE_PRIVATE);  // profile
         checkLogin();
 
         db = new ShoppingDatabase(this);
@@ -74,7 +74,6 @@ public class LoginActivity extends AppCompatActivity {
 
                if(c == 2){
                    int id = db.checkUser(user_name.getText().toString(),user_password.getText().toString());
-                   Toast.makeText(LoginActivity.this, ""+id, Toast.LENGTH_SHORT).show();
                    try{
                        if(id>0){
                            if (shp == null){

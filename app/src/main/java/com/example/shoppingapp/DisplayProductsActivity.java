@@ -53,7 +53,7 @@ public class DisplayProductsActivity extends AppCompatActivity {
         });
         int product_id;
         String table_name;
-        if(HomeActivity.flag == true){
+        if(HomeActivity.flag == true){  // get from home
             Intent intent = getIntent();
             product_id = intent.getIntExtra(HomeActivity.PRODUCT_KEY,-1);
             table_name = intent.getStringExtra(HomeActivity.TABLE_NAME_KEY);

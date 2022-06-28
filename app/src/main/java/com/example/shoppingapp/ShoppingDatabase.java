@@ -73,7 +73,6 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("CREATE TABLE "+TB_USERS+" ("+TB_CLM_USER_ID+" INTEGER PRIMARY KEY AUTOINCREMENT , "+TB_CLM_USER_NAME+" TEXT UNIQUE , "+
                 TB_CLM_USER_FULL_NAME+" TEXT , "+TB_CLM_USER_PASSWORD+" TEXT , "+TB_CLM_USER_EMAIL+" TEXT UNIQUE , "+TB_CLM_USER_PHONE+" TEXT , "+TB_CLM_USER_IMAGE+" TEXT );");
 
-
         sqLiteDatabase.execSQL("CREATE TABLE "+TB_PURCHASES+" ("+TB_CLM_ID+" INTEGER PRIMARY KEY AUTOINCREMENT , "+TB_CLM_IMAGE+" INTEGER , "+
                 TB_CLM_NAME+" TEXT , "+TB_CLM_PRICE+" REAL , "+TB_CLM_BRAND+" TEXT , "+TB_CLM_RATING+" REAL , "+TB_CLM_QUANTITY+" INTEGER );");
 
@@ -202,13 +201,6 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
         return products;
     }
 
-    public boolean deleteProduct(Products products,String tableName){
-        SQLiteDatabase database = getWritableDatabase();
-        String args [] = new String[]{products.getId()+""};
-        long result = database.delete(tableName,TB_CLM_ID+"=?",args);
-        return result > 0;
-    }
-
     public boolean insertProductInPurchases(Products p){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -302,6 +294,8 @@ public class ShoppingDatabase extends SQLiteOpenHelper {
 
     }
 
+
+    // login
     @SuppressLint("Range")
     public int checkUser(String user_name, String password){
         SQLiteDatabase db = getReadableDatabase();
