@@ -11,13 +11,13 @@ Start Application :
 Login & Register Page :
 
 <p align="left">
-<img src="https://user-images.githubusercontent.com/76782050/176427581-09dcf294-50d9-4c8c-abce-810fc49e854b.jpg" width="182" height="400" />
+<img src="https://user-images.githubusercontent.com/76782050/176427581-09dcf294-50d9-4c8c-abce-810fc49e854b.jpg" width="185" height="400" />
  <span> &nbsp;  &nbsp; </span>
-<img src="https://user-images.githubusercontent.com/76782050/176427702-fe87a232-3a27-46f3-8bcc-3b39ad5bbcfa.jpg" width="182" height="400" />
+<img src="https://user-images.githubusercontent.com/76782050/176427702-fe87a232-3a27-46f3-8bcc-3b39ad5bbcfa.jpg" width="185" height="400" />
  <span> &nbsp;  &nbsp;  </span>
-<img src="https://user-images.githubusercontent.com/76782050/176427743-f7d2d066-e17e-4be1-88ae-3dac1b0d7b87.jpg" width="182" height="400" />
+<img src="https://user-images.githubusercontent.com/76782050/176427743-f7d2d066-e17e-4be1-88ae-3dac1b0d7b87.jpg" width="185" height="400" />
  <span> &nbsp;  &nbsp;  </span>
-<img src="https://user-images.githubusercontent.com/76782050/176427765-8074aeac-5237-4744-b050-6234eb5ae6d4.jpg" width="182" height="400" />+
+<img src="https://user-images.githubusercontent.com/76782050/176427765-8074aeac-5237-4744-b050-6234eb5ae6d4.jpg" width="185" height="400" />+
 </p>
 
 
