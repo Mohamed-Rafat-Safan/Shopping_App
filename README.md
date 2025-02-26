@@ -1,7 +1,30 @@
 # ShoppingApp
-This is a product shopping application on the Internet,,, in which there are all products such as fashion, electronics, laptops, telephones, car tools, sports products, books, video games, cosmetics, etc., and in the home there are all the offers that will be on the products, And there is the process of searching for a specific product and each user of the application has a profile page so that he can change his data such as the password, phone number and other data,, and there is also a page for purchases that the user purchases,,, and if he clicks on any product, there is a page Especially for the details of the product, and you can specify the quantity that you want to buy from this product and you can rate it,,, and if you make a purchase, it will be added to the purchases page,,, all this data is stored in the database within the application
+- This is a product shopping application on the Internet,,, in which there are all products such as fashion, electronics, laptops, telephones, car tools, sports products, books, video games, cosmetics, etc.
 
-Start Application :
+- In the home there are all the offers that will be on the products.
+
+- There is the process of searching for a specific product.
+
+- Each user of the application has a profile page so that he can change his data such as the password, phone number and other data.
+
+- There is also a page for purchases that the user purchases,,, and if he clicks on any product.
+
+- There is a page Especially for the details of the product, and you can specify the quantity that you want to buy from this product and you can rate it,,, and if you make a purchase, it will be added to the purchases page.
+
+- All this data is stored in the database within the application by Sqlite database.
+
+## The skills are used in this application:
+
+- language: Java </br>
+- Material Design </br>
+- View Binding </br>
+- Sqlite database </br>
+- SharedPreferences </br>
+- LottieAnimationView </br>
+- Intuit Libray </br>
+- SearchView </br>
+
+## Image this Application :
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/76782050/176427099-1e0dadec-36a9-4acf-ba7d-402a1bf5a819.jpg" width="250" height="500" />
