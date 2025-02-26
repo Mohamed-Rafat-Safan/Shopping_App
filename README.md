@@ -1,5 +1,6 @@
 # ShoppingApp
-- This is a product shopping application on the Internet,,, in which there are all products such as fashion, electronics, laptops, telephones, car tools, sports products, books, video games, cosmetics, etc.
+
+- Shopping App, This application is in Java language and stores products in local database using sqlite db, such as fashion, electronics, laptops, telephones, car tools, sports products, books, video games, cosmetics, etc.
 
 - In the home there are all the offers that will be on the products.
 
